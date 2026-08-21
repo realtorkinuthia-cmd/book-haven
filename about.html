@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book Haven Bookstore | About Us / Contact</title>
+  <meta name="description" content="About Book Haven Bookstore: hours of operation, contact details, and a feedback and custom order form.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&amp;family=Carlito:ital,wght@0,400;0,700;1,400&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="index.html">
+        <img src="images/logo.png" alt="Book Haven Bookstore logo">
+        <span class="brand-name">Book Haven Bookstore</span>
+      </a>
+      <p class="page-title">About Us / Contact</p>
+    </div>
+    <nav class="main-nav" aria-label="Primary navigation">
+      <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="about.html" aria-current="page">About Us / Contact</a></li>
+          <li><a href="events.html">Community</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <section>
+      <div class="container">
+        <div class="section-title">
+          <h1>About Book Haven</h1>
+          <p class="lead">Book Haven Bookstore is a local treasure for book enthusiasts, offering a diverse selection of books, magazines, journals and office supplies.</p>
+        </div>
+        <div class="prose">
+          <p>We have a deep-rooted commitment to fostering literary exploration and a love for reading, and this website mirrors that dedication to the world of words. Our aim is to amplify the visibility of the shop, cultivate a vibrant literary community, and make it simpler for customers to ask about a book or place an order.</p>
+          <p>We serve a broad audience of book lovers and knowledge seekers: avid readers, students, and anyone searching for high-quality reading materials and office essentials. Whether you are after a novel, a specialist magazine, a journal for your notes or a fresh set of pens, our booksellers are glad to help you find it.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="alt-bg">
+      <div class="container">
+        <h2 class="subsection">Visit or Contact Us</h2>
+        <div class="contact-info">
+          <p>128 Chapter Lane, Rivertown, ST 00000<br>
+          Phone: (555) 012-3456 &nbsp;|&nbsp; Email: hello@bookhavenbooks.example</p>
+        </div>
+
+        <table class="hours-table">
+          <caption>Hours of Operation</caption>
+          <thead>
+            <tr>
+              <th scope="col">Day</th>
+              <th scope="col">Hours</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><th scope="row">Monday &ndash; Friday</th><td>9:00 a.m. &ndash; 8:00 p.m.</td></tr>
+            <tr><th scope="row">Saturday</th><td>10:00 a.m. &ndash; 6:00 p.m.</td></tr>
+            <tr><th scope="row">Sunday</th><td>11:00 a.m. &ndash; 5:00 p.m.</td></tr>
+          </tbody>
+        </table>
+
+        <div class="form-wrapper">
+          <h2>Feedback &amp; Custom Order Form</h2>
+          <p class="form-intro">Send us a question, tell us how we are doing, or ask us to order something in. Required fields are marked with an asterisk (*).</p>
+          <form id="contact-form">
+            <div class="form-group">
+              <label for="name">Full Name <span class="required">*</span></label>
+              <input type="text" id="name" name="name" autocomplete="name" required>
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email Address <span class="required">*</span></label>
+              <input type="email" id="email" name="email" autocomplete="email" required>
+            </div>
+
+            <div class="form-group">
+              <label for="phone">Phone Number</label>
+              <input type="tel" id="phone" name="phone" autocomplete="tel" placeholder="(555) 555-5555">
+            </div>
+
+            <div class="form-group">
+              <label for="message">Feedback or Question <span class="required">*</span></label>
+              <textarea id="message" name="message" rows="4" required></textarea>
+            </div>
+
+            <fieldset>
+              <legend>Custom Order</legend>
+              <div class="form-group">
+                <label for="custom-order">Title, Author or Item Requested</label>
+                <textarea id="custom-order" name="custom-order" rows="3" placeholder="e.g., an out-of-print title, a back issue of a magazine, or a bulk order of notebooks."></textarea>
+              </div>
+              <div class="form-group">
+                <label for="quantity">Quantity Needed</label>
+                <select id="quantity" name="quantity">
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4+">4 or more</option>
+                </select>
+              </div>
+            </fieldset>
+
+            <div class="cart-actions form-actions">
+              <button type="submit" class="btn" id="contact-submit-btn">Submit</button>
+              <button type="reset" class="btn btn-secondary" id="contact-clear-btn">Clear Form</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <h2 class="footer-heading">Book Haven Bookstore</h2>
+        <p>128 Chapter Lane, Rivertown, ST 00000<br>
+        Phone: (555) 012-3456</p>
+        <p>Monday&ndash;Friday 9am&ndash;8pm &middot; Saturday 10am&ndash;6pm &middot; Sunday 11am&ndash;5pm</p>
+      </div>
+      <div>
+        <h2 class="footer-heading">Quick Links</h2>
+        <nav aria-label="Footer navigation">
+          <ul class="footer-nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="about.html">About Us / Contact</a></li>
+          <li><a href="events.html">Community</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div>
+        <h2 class="footer-heading">Stay Connected</h2>
+        <p>Join our newsletter for new arrivals, staff picks and event news.</p>
+        <form id="subscribe-form" class="subscribe-form">
+          <label for="footer-email" class="visually-hidden">Email address</label>
+          <input type="email" id="footer-email" name="footer-email" placeholder="Your email address" required>
+          <button type="submit" class="btn" id="subscribe-btn">Subscribe</button>
+        </form>
+        <h3 class="social-heading">Follow Us</h3>
+        <ul class="social-links">
+          <li>
+            <a href="https://www.facebook.com/" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M13.5 21v-8h2.7l.4-3.1h-3.1V7.9c0-.9.25-1.5 1.55-1.5H16.7V3.6A21 21 0 0 0 14.3 3.5c-2.4 0-4 1.45-4 4.1v2.3H7.6V13h2.7v8z"/></svg>
+              <span class="visually-hidden">Book Haven Bookstore on Facebook</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 2.2c3.2 0 3.6 0 4.9.07 1.2.05 1.8.25 2.2.42.55.21.95.47 1.36.88.41.41.67.81.88 1.36.17.4.37 1 .42 2.2.06 1.3.07 1.7.07 4.9s0 3.6-.07 4.9c-.05 1.2-.25 1.8-.42 2.2-.21.55-.47.95-.88 1.36-.41.41-.81.67-1.36.88-.4.17-1 .37-2.2.42-1.3.06-1.7.07-4.9.07s-3.6 0-4.9-.07c-1.2-.05-1.8-.25-2.2-.42a3.7 3.7 0 0 1-1.36-.88 3.7 3.7 0 0 1-.88-1.36c-.17-.4-.37-1-.42-2.2C2.21 15.6 2.2 15.2 2.2 12s0-3.6.07-4.9c.05-1.2.25-1.8.42-2.2.21-.55.47-.95.88-1.36.41-.41.81-.67 1.36-.88.4-.17 1-.37 2.2-.42C8.4 2.21 8.8 2.2 12 2.2m0 2.2c-3.15 0-3.5.01-4.74.07-.9.04-1.39.19-1.71.32-.43.17-.74.37-1.06.69-.32.32-.52.63-.69 1.06-.13.32-.28.81-.32 1.71C3.41 8.5 3.4 8.85 3.4 12s.01 3.5.07 4.74c.4.9.19 1.39.32 1.71.17.43.37.74.69 1.06.32.32.63.52 1.06.69.32.13.81.28 1.71.32 1.24.06 1.59.07 4.74.07s3.5-.01 4.74-.07c.9-.04 1.39-.19 1.71-.32.43-.17.74-.37 1.06-.69.32-.32.52-.63.69-1.06.13-.32.28-.81.32-1.71.06-1.24.07-1.59.07-4.74s-.01-3.5-.07-4.74c-.04-.9-.19-1.39-.32-1.71a2.9 2.9 0 0 0-.69-1.06 2.9 2.9 0 0 0-1.06-.69c-.32-.13-.81-.28-1.71-.32-1.24-.06-1.59-.07-4.74-.07m0 3.74a5.86 5.86 0 1 1 0 11.72 5.86 5.86 0 0 1 0-11.72m0 2.2a3.66 3.66 0 1 0 0 7.32 3.66 3.66 0 0 0 0-7.32m6.1-2.5a1.37 1.37 0 1 1-2.74 0 1.37 1.37 0 0 1 2.74 0"/></svg>
+              <span class="visually-hidden">Book Haven Bookstore on Instagram</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.x.com/" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M17.7 3h3.3l-7.2 8.2L22.3 21h-6.6l-5.2-6.7L4.6 21H1.3l7.7-8.8L1.7 3h6.8l4.7 6.2zm-1.2 16h1.8L7.6 4.8H5.7z"/></svg>
+              <span class="visually-hidden">Book Haven Bookstore on X</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.youtube.com/" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M21.6 7.2a2.5 2.5 0 0 0-1.75-1.77C18.3 5 12 5 12 5s-6.3 0-7.85.43A2.5 2.5 0 0 0 2.4 7.2 26 26 0 0 0 2 12a26 26 0 0 0 .4 4.8 2.5 2.5 0 0 0 1.75 1.77C5.7 19 12 19 12 19s6.3 0 7.85-.43a2.5 2.5 0 0 0 1.75-1.77A26 26 0 0 0 22 12a26 26 0 0 0-.4-4.8M10 15.1V8.9l5.2 3.1z"/></svg>
+              <span class="visually-hidden">Book Haven Bookstore on YouTube</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 Book Haven Bookstore. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
